@@ -1,0 +1,142 @@
+@import "colores";
+
+$tipo: libre baskerville serif;
+
+$color:verdeagua;
+
+.div2{
+    @if $color==verdeagua{
+        background-color: antiquewhite;
+    }
+}
+
+$imagen:borde;
+
+.img1{
+    @if $imagen==borde {
+        border-radius: 20px;  
+    }
+}
+
+.img1:hover{
+    border: 3px solid rgb(192, 173, 211);
+}
+
+$colorf:color2;
+
+.fondo2{
+    @if $colorf==color2{
+    background-color: rgb(203, 240, 218);
+    }
+}
+
+
+header {
+    grid-area: header;
+    nav{
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+                ul{
+                    li{
+                        a{
+                            margin: 10px;
+                            padding: 10px;
+                            font-family: $tipo;
+                            font-weight: bold;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+header {
+    grid-area: header;
+    nav{
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+                ul{
+                    li:hover{
+                        border-bottom: 4px solid $color-pink1;
+
+                        a{
+                            margin: 10px;
+                            padding: 10px;
+                            font-family: $tipo;
+                            font-weight: bold;
+                        }
+                    }
+                }
+        }
+    }
+}
+
+
+
+.body__grid{
+    background-color:$color-bkg;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer"
+    ;
+        .main__index{
+            grid-area: main;
+            margin: 20px;
+            min-height: 70vh;
+            h2{
+                font-family: $tipo;
+                font-weight: bolder;
+                color: $color-pink1;
+            }
+            
+        }
+
+}
+
+
+
+.body_grid2{
+    background-color:$color-bkg;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-areas: 
+    "header header header"
+    "aside main main";
+        
+   .header_grid2{
+            grid-area: header;
+    }
+
+    .main_grid2{
+            grid-area: main;
+            min-height: 70vh;
+     }
+
+    .aside_grid2{
+        grid-area: aside;
+        min-height: 70vh;
+        background-color: $color-pink1;
+    }
+}
+
+
+.aside__index{
+    grid-area: aside;
+    background-color: $color-pink1;
+    min-height: 70vh;
+    
+}
+
+.footer__index{
+    grid-area: footer;
+    min-height: 15vh;
+    background-color:$color-bkg2;
+}
+
