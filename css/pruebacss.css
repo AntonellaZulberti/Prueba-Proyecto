@@ -1,9 +1,3 @@
-.div2 {
-  background-color: antiquewhite; }
-
-.img1 {
-  border-radius: 20px; }
-
 .img1:hover {
   border: 3px solid #c0add3; }
 
@@ -37,10 +31,12 @@ header {
         font-weight: bold; }
 
 .body__grid {
-  background-color: #fce4ec;
+  background-image: url(fotos/trama3.jpg);
   display: grid;
   grid-template-columns: 20% 50% 30%;
-  grid-template-areas: "header header header" "aside main main" "footer footer footer"; }
+  grid-template-areas: "header header header"
+ "main main main"
+ "footer footer footer"; }
   .body__grid .main__index {
     grid-area: main;
     margin: 20px;
@@ -54,7 +50,8 @@ header {
   background-color: #fce4ec;
   display: grid;
   grid-template-columns: 20% 50% 30%;
-  grid-template-areas: "header header header" "aside main main"; }
+  grid-template-areas: "header header header"
+ "main main main"; }
   .body_grid2 .header_grid2 {
     grid-area: header; }
   .body_grid2 .main_grid2 {
