@@ -48,10 +48,9 @@ header {
 
 
 .body__grid{
+    background-image: url("fotos/FondoI.jpg");
+    background-repeat: repeat;
         .main__index{
-            background-image: url("fotos/FondoI.jpg");
-            background-repeat: repeat;
-            grid-area: main;
             display: flex;
             flex-direction: column;
             align-content: center;

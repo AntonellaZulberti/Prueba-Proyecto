@@ -20,19 +20,19 @@ header nav div {
       font-family: libre baskerville serif;
       font-weight: bold; }
 
-.body__grid .main__index {
+.body__grid {
   background-image: url("fotos/FondoI.jpg");
-  background-repeat: repeat;
-  grid-area: main;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  margin: 20px;
-  min-height: 70vh; }
-  .body__grid .main__index h2 {
-    font-family: libre baskerville serif;
-    font-weight: bolder;
-    color: palevioletred; }
+  background-repeat: repeat; }
+  .body__grid .main__index {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px;
+    min-height: 70vh; }
+    .body__grid .main__index h2 {
+      font-family: libre baskerville serif;
+      font-weight: bolder;
+      color: palevioletred; }
 
 .footer__index {
   min-height: 15vh;
