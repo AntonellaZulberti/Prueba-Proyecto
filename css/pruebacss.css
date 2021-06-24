@@ -31,7 +31,7 @@ header {
         font-weight: bold; }
 
 .body__grid .main__index {
-  background-image: url("fotos/trama3.jpg");
+  background-image: url("fotos/FondoI.jpg");
   background-repeat: repeat;
   grid-area: main;
   display: flex;
@@ -48,7 +48,8 @@ header {
   background-color: #fce4ec;
   display: grid;
   grid-template-columns: 20% 50% 30%;
-  grid-template-areas: "header header header" "main main main"; }
+  grid-template-areas: "header header header"
+ "main main main"; }
   .body_grid2 .header_grid2 {
     grid-area: header; }
   .body_grid2 .main_grid2 {
