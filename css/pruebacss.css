@@ -1,6 +1,3 @@
-.img1:hover {
-  border: 3px solid #c0add3; }
-
 header nav div {
   display: flex;
   flex-direction: row;
@@ -37,16 +34,6 @@ header nav div {
     font-weight: bolder;
     color: palevioletred; }
 
-.main_grid2 {
-  grid-area: main;
-  min-height: 70vh; }
-
-.aside__index {
-  grid-area: aside;
-  background-color: palevioletred;
-  min-height: 70vh; }
-
 .footer__index {
-  grid-area: footer;
   min-height: 15vh;
   background-color: #d5f2ed; }

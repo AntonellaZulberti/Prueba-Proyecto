@@ -2,13 +2,6 @@
 
 $tipo: libre baskerville serif;
 
-$color:verdeagua;
-
-.img1:hover{
-    border: 3px solid rgb(192, 173, 211);
-}
-
-$colorf:color2;
 
 header {
     nav{
@@ -74,21 +67,7 @@ header {
 
 }
 
-    .main_grid2{
-            grid-area: main;
-            min-height: 70vh;
-     }
-
-
-.aside__index{
-    grid-area: aside;
-    background-color: $color-pink1;
-    min-height: 70vh;
-    
-}
-
 .footer__index{
-    grid-area: footer;
     min-height: 15vh;
     background-color:$color-bkg2;
 }
