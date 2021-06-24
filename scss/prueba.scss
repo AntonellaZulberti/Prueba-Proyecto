@@ -64,7 +64,6 @@ header {
 
 
 .body__grid{
-    background-image: url(fotos/trama3.jpg);
     display: grid;
     grid-template-columns: 20% 50% 30%;
     grid-template-areas: 
@@ -73,7 +72,10 @@ header {
     "footer footer footer"
     ;
         .main__index{
+            background-image: url(fotos/trama3.jpg)
             grid-area: main;
+            display: flex;
+            align-content: center;
             margin: 20px;
             min-height: 70vh;
             h2{
