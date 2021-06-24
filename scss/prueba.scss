@@ -10,15 +10,7 @@ $color:verdeagua;
 
 $colorf:color2;
 
-.fondo2{
-    @if $colorf==color2{
-    background-color: rgb(203, 240, 218);
-    }
-}
-
-
 header {
-    grid-area: header;
     nav{
         div{
             display: flex;
@@ -39,7 +31,6 @@ header {
 }
 
 header {
-    grid-area: header;
     nav{
         div{
             display: flex;
@@ -83,31 +74,10 @@ header {
 
 }
 
-
-
-.body_grid2{
-    background-color:$color-bkg;
-    display: grid;
-    grid-template-columns: 20% 50% 30%;
-    grid-template-areas: 
-    "header header header"
-    "main main main";
-        
-   .header_grid2{
-            grid-area: header;
-    }
-
     .main_grid2{
             grid-area: main;
             min-height: 70vh;
      }
-
-    .aside_grid2{
-        grid-area: aside;
-        min-height: 70vh;
-        background-color: $color-pink1;
-    }
-}
 
 
 .aside__index{
