@@ -64,11 +64,12 @@ header {
 
 
 .body__grid{
-
         .main__index{
             background-image: url("fotos/trama3.jpg");
+            background-repeat: repeat;
             grid-area: main;
             display: flex;
+            flex-direction: column;
             align-content: center;
             margin: 20px;
             min-height: 70vh;
