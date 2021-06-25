@@ -5,7 +5,7 @@ header nav div {
   header nav div ul li a {
     margin: 10px;
     padding: 10px;
-    font-family: libre baskerville serif;
+    font-family: libre baskerville, serif;
     font-weight: bold; }
 
 header nav div {
@@ -17,23 +17,63 @@ header nav div {
     header nav div ul li:hover a {
       margin: 10px;
       padding: 10px;
-      font-family: libre baskerville serif;
+      font-family: libre baskerville, serif;
       font-weight: bold; }
 
-.body__grid {
-  background-image: url("fotos/FondoI.jpg");
-  background-repeat: repeat; }
-  .body__grid .main__index {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    margin: 20px;
-    min-height: 70vh; }
-    .body__grid .main__index h2 {
-      font-family: libre baskerville serif;
-      font-weight: bolder;
-      color: palevioletred; }
+.body__index .main__index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  min-height: 60vh; }
+  .body__index .main__index h2 {
+    font-family: libre baskerville, serif;
+    font-weight: bolder;
+    color: palevioletred; }
+    .body__index .main__index h2 p {
+      font-size: 14pt;
+      margin: top 30px;
+      font-family: libre baskerville, serif; }
 
 .footer__index {
   min-height: 15vh;
   background-color: #d5f2ed; }
+
+.parrafo1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+  .parrafo1 p {
+    margin-top: 5px;
+    padding: 10px; }
+
+.divCon {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  margin-bottom: 40px; }
+
+.h2Con {
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-family: libre baskerville, serif;
+  color: #a55161;
+  font-weight: bolder; }
+
+.concepto__main {
+  font-family: libre baskerville, serif;
+  font-size: 14pt;
+  display: flex;
+  justify-content: center;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  margin-bottom: 30vh; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  margin-left: 20vh;
+  margin-right: 50vh;
+  margin-bottom: 10vh; }

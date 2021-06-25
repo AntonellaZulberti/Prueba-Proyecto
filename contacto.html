@@ -4,6 +4,8 @@
     	<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     	<title>Micafe Pastelería</title>
+      <meta name="description" content="Micafé Pastelería hace tortas, cookies y otras delicias, además de proveer servicios para ocaciones especiales. Inspirada en la pastelería clásica francesa">
+      <meta name="keywords" content="pastelería, tortas, cookies, muffins, cumpleaños, casamiento, comida, mesa dulce, pastelería sin tacc, pastelería francesa">  
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="css/pruebacss.css"/>
     </head>
@@ -29,28 +31,32 @@
            </div>
          </nav>
       </header>
-      <main>
-        <h2> Contacto </h2> <br>
-            <form>
-            	<label for="nombre_apellido">Nombre:</label>
-        	    <input class="inputnombre" type="text" name="nombre_apellido">
-             <br>
-             	<label for="email">Email:</label>
-        	    <input class="inputnombre" type="text" name="email">
-             <br>
-             	<label for="TipoDeContacto">Tipo de Contacto </label>
-             	<select name="TipoDeContacto">
-             		<option value="Productos">Productos</option>
-             		<option value="Servicios">Servicios </option>
-             		<option value="Otro">Otro </option>
-             	</select>
-             <br>
-                <label for="Comentario">Detalle del pedido</label>
-                <br>
-                <textarea name="Comentario" rows="20" cols="45">Ingrese su pedido</textarea>
-             <br>
-                <input type="submit" value="Enviar Datos">
-             </form>
+      <main style="background-color: #fde3e3;">
+        <section>
+          <div class="divCon">
+            <h2 class="h2Con"> Contacto </h2>
+          </div> 
+              <form class="form">
+                <label for="nombre_apellido">Nombre:</label>
+                <input class="inputnombre" width="50px" type="text" name="nombre_apellido">
+               <br>
+                 <label for="email">Email:</label>
+                <input class="inputnombre" type="text" name="email">
+               <br>
+                 <label for="TipoDeContacto">Tipo de Contacto </label>
+                 <select name="TipoDeContacto">
+                   <option value="Productos">Productos</option>
+                   <option value="Servicios">Servicios </option>
+                   <option value="Otro">Otro </option>
+                 </select>
+               <br>
+                  <label for="Comentario">Detalle del pedido</label>
+                  <br>
+                  <textarea name="Comentario" rows="15" cols="50">Ingrese su pedido</textarea>
+               <br>
+                  <input type="submit" value="Enviar Datos">
+               </form>
+        </section>
       </main>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
